@@ -24,16 +24,40 @@ body {
 }
 
 // Classes
-.fullscreen {
-	display: flex;
-	background: gray;
+
+.copyBanner {
+	display: block;
+	background: blue;
+	height: 27%;
 }
+
+.fullHeight {
+	height: 100%;
+}
+
+.fullscreen {
+	height: 100%;
+	background-color: gray;
+}
+
+.heroPhoto {
+	background: pink;
+	height: 73%;
+}
+
+.row {
+	.row {
+		margin: 0;
+	}
+}
+
+
+
 // IDs
 
 #mainContainer {
-	position: relative;
 	background-color: $gray;
-	min-height: 100%;
+	height: 100%;
 }
 
 #masthead {	
