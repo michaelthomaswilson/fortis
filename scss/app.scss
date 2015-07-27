@@ -27,8 +27,19 @@ body {
 
 .copyBanner {
 	display: block;
-	background: blue;
-	height: 27%;
+	background: $bannerRed;
+	height: 20%;
+
+	text-align: center;
+
+	h2 {
+		font-family: 'Didot 96 A', 'Didot 96 B'; font-weight: 500; font-style: italic;
+		-webkit-font-smoothing: antialiased;
+		letter-spacing: 0.05em;
+		color: #fff;
+		font-size: 1.1rem;
+		margin-top: 10%;
+	}
 }
 
 .fullHeight {
@@ -42,7 +53,7 @@ body {
 
 .heroPhoto {
 	background: pink;
-	height: 73%;
+	height: 80%;
 }
 
 .row {
