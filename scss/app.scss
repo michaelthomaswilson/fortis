@@ -61,6 +61,10 @@ body {
 }
 
 #masthead {	
+	position: fixed;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
 	height: 180px;
 	background-color: #ffffff;
 
@@ -72,32 +76,32 @@ body {
 			margin-top: 50px;
 		}
 	}
-}
 
-#navigation { 
-	height: 46px;
+	#navigation { 
+		height: 46px;
 
-	div {
+		div {
 
-		a {
-			font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 300; font-style: normal;
-			color: $copyGray;
-			font-size: 12px; //rem-calc(10);
+			a {
+				font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 300; font-style: normal;
+				color: $copyGray;
+				font-size: 12px; //rem-calc(10);
 
-			display: table-cell;
-			text-align: center;
-			vertical-align: middle;
-			height: 46px;
-			width: 100%;
+				display: table-cell;
+				text-align: center;
+				vertical-align: middle;
+				height: 46px;
+				width: 100%;
+			}
+
 		}
 
+		div.gray {background: $gray}
+		div.lightRed {background: $lightRed}
+		div.darkRed {background: $darkRed}
 	}
 
-	div.gray {background: $gray}
-	div.lightRed {background: $lightRed}
-	div.darkRed {background: $darkRed}
 }
-
 
 // Or selectively include components
 // @import
