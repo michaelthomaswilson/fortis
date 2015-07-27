@@ -52,7 +52,6 @@ body {
 }
 
 .heroPhoto {
-	background: pink;
 	height: 80%;
 }
 
@@ -78,6 +77,7 @@ body {
 	right: 0;
 	height: 180px;
 	background-color: #ffffff;
+	z-index: 9999;
 
 	#logo {
 		height: 130px;
