@@ -23,6 +23,21 @@ body {
 	background-color: #ffffff;
 }
 
+h1 {
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 500; font-style: normal;
+	color: $bannerRed;
+	font-size: 1.8rem;
+	letter-spacing: -0.02em;
+	line-height: 2rem;
+}
+
+p {
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 300; font-style: normal;
+	color: $copyGray;
+	font-size: 0.8rem;
+	-webkit-font-smoothing: antialiased;
+}
+
 // Classes
 
 .copyBanner {
@@ -42,6 +57,15 @@ body {
 	}
 }
 
+.copyBlock {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 70%;
+    margin: -15% 0 0 -35%;
+}
+
 .fullHeight {
 	height: 100%;
 }
@@ -51,8 +75,17 @@ body {
 	background-color: gray;
 }
 
+.halfHeight {
+	height: 50%;
+
+	div {
+		height: 100%;
+	}
+}
+
 .heroPhoto {
 	height: 80%;
+	background-color: $bannerGray;
 }
 
 .row {
