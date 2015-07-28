@@ -181,7 +181,7 @@ p {
 	margin: 0 auto;
 	left: 0;
 	right: 0;
-	height: 180px;
+	height: auto;
 	background-color: #ffffff;
 	z-index: 9999;
 
@@ -198,17 +198,18 @@ p {
 		height: 46px;
 
 		div {
+			text-align: center;
 
 			a {
 				font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 300; font-style: normal;
 				color: $copyGray;
 				font-size: 12px; //rem-calc(10);
 
-				display: table-cell;
-				text-align: center;
+				display: block;
 				vertical-align: middle;
-				height: 46px;
 				width: 100%;
+				padding: 5% 0;
+
 			}
 
 		}
