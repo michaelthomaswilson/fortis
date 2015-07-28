@@ -130,6 +130,47 @@ p {
 	}
 }
 
+#footer {
+	background-color: $bannerGray;
+	height: 22%;
+
+	div {
+		text-align: center;
+
+		hr {
+			color: $footerGray;
+			border-color: $footerGray;
+		}
+
+		p {
+			color: $footerGray;
+		}
+	}
+
+	img {
+		padding: 20% 0 7% 0;
+		width: 8rem;
+		height: auto;
+	}
+
+	hr {
+		margin: 1rem 0;
+	}
+
+	.contact {
+
+		p {
+			margin-bottom: 0;
+		}
+	}
+
+	.fine {
+		p {
+			font-size: .6rem;
+		}
+	}
+}
+
 #mainContainer {
 	background-color: $gray;
 	height: 100%;
