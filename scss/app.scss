@@ -56,6 +56,12 @@ p {
 		display: block;
 		width: 100%;
 		background-color: $bannerGray;
+
+		&.main {
+			 background-image: url('/images/hero.jpg');
+		    background-position: center center;
+		    background-repeat: no-repeat;
+		}
 	}
 
 	.copyBanner {
@@ -101,7 +107,10 @@ p {
 
 .photo {
 	//background-color: #252424;
-	border: 1px solid #252424;
+	border: 1px solid #252424;    
+	overflow: hidden;
+    background-size: cover;
+    background-position: center center;overflow: hidden;
 }
 
 .row {
