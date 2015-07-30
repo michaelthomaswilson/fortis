@@ -6,9 +6,10 @@ $(document).ready(function() {
     headerHeight = $("#masthead").height();
     bannerHeight = $(".copyBanner").height();
     windowHeight = windowHeight-headerHeight;
-    //heroHeight = windowHeight - bannerHeight;
+    
+    heroHeight = windowHeight - bannerHeight;
     $('.fullscreen').css('height', windowHeight);
-    //$('.heroPhoto').css('height', heroHeight);
+    $('.heroPhoto').css('height', heroHeight);
   };
   setHeight();
   

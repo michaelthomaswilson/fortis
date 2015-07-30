@@ -43,35 +43,27 @@ p {
 // Classes
 
 .fullscreen {
-	position: relative;
 	display: block;
 	height: 500px; //840px;
-	min-height: 500px;
-	margin-top: 179px;
+	//min-height: 500px;
 	background-color: gray;
+	background-color: yellow;
+
+	&.top {
+		margin-top: 160px;
+	}
 
 	.heroPhoto {
-		position: absolute;
-		top:0;
-		left:0;
-		right: 0;
 		display: block;
-		//min-height: 570px;
-		min-height: 79%;
 		width: 100%;
-		background-color: yellow; //$bannerGray;
+		background-color: $bannerGray;
 	}
 
 	.copyBanner {
-		position: absolute;
-		bottom: 0;
-		left: 0;
 		display: block;
 		background-color: $bannerRed;
-		//height: 270px;
 		width: 100%;
-		//min-height: 270px;
-		min-height: 21%;
+		height: 200px;
 		text-align: center;
 
 		h2 {
@@ -79,8 +71,8 @@ p {
 			letter-spacing: normal; //0.05em;
 			color: #fff;
 			font-size: 1.7rem;
-			//font-size: 20px;
-			margin: 7% 0;
+			//font-size: 28px;
+			margin: 5% 0;
 		}
 	}
 }
@@ -99,7 +91,9 @@ p {
 }
 
 .halfHeight {
+	//position: relative;
 	height: 50%;
+	background-color: yellow;
 
 	div {
 		height: 100%;
@@ -200,7 +194,7 @@ p {
 	top: 0;
 	left: 0;
 	right: 0;
-	min-height: 130px; //auto;
+	height: 130px;
 	background-color: #ffffff;
 	z-index: 9999;
 
@@ -247,6 +241,7 @@ p {
 @media #{$small-only} { 
 
 	.copyBanner {
+		bottom: -500px !important;
 		h2 {font-size: 1rem !important;}
 	}
 }
