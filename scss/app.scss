@@ -22,7 +22,7 @@ html, body {
 body {
 	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 300; font-style: normal;
 	color: $copyGray;
-	background-color: #ffffff;
+	background-color: #282828;
 }
 
 h1 {
@@ -109,11 +109,6 @@ p {
 		margin: 0;
 	}
 }
-
-.row.hide-for-small-only {
-	display: none !important;
-}
-
 
 
 // IDs
@@ -204,16 +199,10 @@ p {
 
 	#logo {
 		padding: 4% 0;
-
-		img {
-			//height: 36px;
-			//margin-top: 50px;
-		}
 	}
 
 	#navigation { 
 		height: 45px;
-		//margin-top: 133px;
 
 		div {
 			text-align: center;
@@ -272,6 +261,21 @@ p {
 			margin-top: -1% !important;
 		}
 	}
+
+	#masthead {
+		height: 50px;
+		overflow: hidden;
+	}
+
+	.fullscreen {
+		&.top {
+			margin-top: 50px;
+		}
+	}
+}
+
+@media #{$small-up} { 
+	
 }
 
 // Or selectively include components
