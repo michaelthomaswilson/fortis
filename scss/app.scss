@@ -43,14 +43,13 @@ p {
 // Classes
 
 .fullscreen {
-	display: block;
-	height: 500px; //840px;
+	//height: 500px; //840px;
 	//min-height: 500px;
 	background-color: gray;
 	//background-color: yellow;
 
 	&.top {
-		margin-top: 160px;
+		margin-top: 191px;
 	}
 
 	.heroPhoto {
@@ -102,7 +101,7 @@ p {
 
 .photo {
 	//background-color: #252424;
-	//border: 1px solid #252424;
+	border: 1px solid #252424;
 }
 
 .row {
@@ -199,7 +198,7 @@ p {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 130px;
+	height: 191px;
 	background-color: #ffffff;
 	z-index: 9999;
 
@@ -248,7 +247,7 @@ p {
 	.fullscreen {
 		.copyBanner {
 			height: 120px !important;
-			margin-top: -30px !important;
+			//margin-top: -30px !important;
 
 			h2 {font-size: 1rem !important;}
 		}
