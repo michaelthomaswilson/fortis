@@ -18,6 +18,8 @@ $(document).ready(function() {
 
    	if( $('#mobile').css('display')=='none') {
         is_mobile = true;       
+    } else {
+    	is_mobile = false;
     }
 
     if (is_mobile != true) {
