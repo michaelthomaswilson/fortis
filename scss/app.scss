@@ -102,13 +102,17 @@ p {
 
 .photo {
 	//background-color: #252424;
-	border: 1px solid #252424;
+	//border: 1px solid #252424;
 }
 
 .row {
 	.row {
 		margin: 0;
 	}
+}
+
+.row.hide-for-small-only {
+	display: none !important;
 }
 
 
@@ -137,7 +141,7 @@ p {
 		img {
 			width: 2.8rem;
 			height: auto;
-			margin-top: 1rem;
+			margin-top: 0.4rem;
 		}
 	}
 }
@@ -241,11 +245,33 @@ p {
 
 @media #{$small-only} { 
 
-	.copyBanner {
+	.fullscreen {
+		.copyBanner {
+			height: 120px !important;
+			margin-top: -30px !important;
 
-		height: 120px !important;
+			h2 {font-size: 1rem !important;}
+		}
+	}
 
-		h2 {font-size: 1rem !important;}
+	.halfHeight {
+		//height: 100% !important;
+	}
+
+	#action {
+		h2 {
+			font-size: 0.7rem !important;
+		}
+
+		h3 {
+			font-size: 0.7rem !important;
+		}
+
+		img {
+			width: 10% !important;
+			height: auto;
+			margin-top: -1% !important;
+		}
 	}
 }
 
