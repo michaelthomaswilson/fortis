@@ -42,22 +42,46 @@ p {
 
 // Classes
 
-.copyBanner {
-	background-color: $bannerRed;
-	//min-height: 22%;
-	height: auto;
-	text-align: center;
+.fullscreen {
+	position: relative;
+	display: block;
+	height: 500px; //840px;
+	min-height: 500px;
+	margin-top: 179px;
+	background-color: gray;
 
-	.row {
-		height: auto !important;
+	.heroPhoto {
+		position: absolute;
+		top:0;
+		left:0;
+		right: 0;
+		display: block;
+		//min-height: 570px;
+		min-height: 79%;
+		width: 100%;
+		background-color: yellow; //$bannerGray;
 	}
 
-	h2 {
-		font-family: 'Didot 96 A', 'Didot 96 B'; font-weight: 500; font-style: italic;
-		letter-spacing: normal; //0.05em;
-		color: #fff;
-		font-size: 1.7rem;
-		padding: 7% 0;
+	.copyBanner {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		display: block;
+		background-color: $bannerRed;
+		//height: 270px;
+		width: 100%;
+		//min-height: 270px;
+		min-height: 21%;
+		text-align: center;
+
+		h2 {
+			font-family: 'Didot 96 A', 'Didot 96 B'; font-weight: 500; font-style: italic;
+			letter-spacing: normal; //0.05em;
+			color: #fff;
+			font-size: 1.7rem;
+			//font-size: 20px;
+			margin: 7% 0;
+		}
 	}
 }
 
@@ -74,22 +98,12 @@ p {
 	height: 100%;
 }
 
-.fullscreen {
-	height: 100%;
-	background-color: gray;
-}
-
 .halfHeight {
 	height: 50%;
 
 	div {
 		height: 100%;
 	}
-}
-
-.heroPhoto {
-	height: 78%;
-	background-color: $bannerGray;
 }
 
 .photo {
@@ -183,9 +197,10 @@ p {
 #masthead {	
 	position: fixed;
 	margin: 0 auto;
+	top: 0;
 	left: 0;
 	right: 0;
-	height: auto;
+	min-height: 130px; //auto;
 	background-color: #ffffff;
 	z-index: 9999;
 
@@ -206,7 +221,7 @@ p {
 			text-align: center;
 
 			a {
-				font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 300; font-style: normal;
+				font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
 				color: $copyGray;
 				font-size: 14px; //rem-calc(10);
 
@@ -226,6 +241,14 @@ p {
 		div.darkRed {background: $darkRed}
 	}
 
+}
+
+
+@media #{$small-only} { 
+
+	.copyBanner {
+		h2 {font-size: 1rem !important;}
+	}
 }
 
 // Or selectively include components
