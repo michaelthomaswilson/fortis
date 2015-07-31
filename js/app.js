@@ -1,6 +1,7 @@
 $(document).foundation();
 
 var is_mobile = false;
+var headerHeight;
 
 $(document).ready(function() {
 
@@ -36,14 +37,14 @@ $(document).ready(function() {
   };
 
   setHeight();
-
-    // now i can use is_mobile to run javascript conditionally
-
-    if (is_mobile == true) {
-        //alert('this is mobile');
-    }
   
   $(window).resize(function() {
     setHeight();
   });
+
+  	$('a.scroll').click(function() {//$.scrollTo works EXACTLY the same way, but scrolls the whole screen
+  		var href = $(this).attr('href');
+		$.scrollTo(href, 500,{ offset:-headerHeight, easing:'easeOutCubic' });
+		return false;
+	});
 });
