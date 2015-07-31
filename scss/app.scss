@@ -117,6 +117,24 @@ p {
 	overflow: hidden;
     background-size: cover;
     background-position: center center;overflow: hidden;
+
+    &.bg {
+    	background-size: auto;
+    	background-position: 100% 80%;
+    	background-repeat: no-repeat;
+    }
+
+    &.bg2 {
+    	background-size: auto;
+    	background-position: 0% 80%;
+    	background-repeat: no-repeat;
+    }
+
+    &.bg3 {
+    	background-size: 50%;
+    	background-position: 0% 10%;
+    	background-repeat: no-repeat;
+    }
 }
 
 .row {
