@@ -47,10 +47,7 @@ p {
 	//min-height: 500px;
 	background-color: gray;
 	//background-color: yellow;
-
-	&.top {
-		margin-top: 191px;
-	}
+	//border: 1px solid red;
 
 	.heroPhoto {
 		display: block;
@@ -246,6 +243,11 @@ p {
 }
 
 @media #{$large-up} {
+
+	.fullscreen.top {
+		margin-top: 191px !important;
+	}
+
 	#mobile {
 		display: block;
 	}
@@ -253,6 +255,15 @@ p {
 
 
 @media #{$small-only} { 
+
+	.heroPhoto {
+		display: block;
+		height: 400px;
+
+		&.main {
+			height: 200px;
+		}
+	}
 
 	.fullscreen {
 		overflow: visible;
@@ -303,12 +314,15 @@ p {
 
 @media #{$small-up} {
 	.fullscreen {
-		height: auto;
+		//height: auto;
+		//min-height: 400px;
+
+		&.top {
+			margin-top: 50px;
+		}
 	}
 
-	.heroPhoto {
-		height: 300px;
-	}
+	
 }
 
 @media #{$medium-only} { 
