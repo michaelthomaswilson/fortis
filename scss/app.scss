@@ -112,11 +112,10 @@ p {
 	    }
 
 		h2 {
-			font-family: 'Didot 96 A', 'Didot 96 B'; font-weight: 500; font-style: italic;
-			letter-spacing: normal; //0.05em;
+			font-family: 'Didot 96 A', 'Didot 96 B'; font-weight: 600; font-style: italic;
+			letter-spacing: 0.04em;
 			color: #fff;
 			font-size: 1.6rem;
-			//font-size: 28px;
 			margin: 5% 0 0 0;
 		}
 	}
@@ -320,6 +319,9 @@ p {
 
 
 @media #{$small-only} { 
+	#action a h2 {
+		margin-top: 5% !important;
+	}
 
 	.arrow {
 		left: 48%;
