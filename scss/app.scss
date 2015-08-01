@@ -45,12 +45,11 @@ p {
 .arrow {
 	position: absolute;
 	left: 48%;
-	bottom: 48%;
-	width: 375px;
-	height: 68px;
+	bottom: 35%;
+	width: auto; //375px;
+	height: auto; //68px;
 	margin-left: -405px;
 	background-image: url('/images/arrow.svg');
-	//background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 
@@ -71,6 +70,7 @@ p {
 }
 
 .fullscreen {
+	position: relative;
 	//height: 500px; //840px;
 	//min-height: 500px;
 	background-color: gray;
@@ -321,12 +321,42 @@ p {
 
 @media #{$small-only} { 
 
+	.arrow {
+		left: 48%;
+		bottom: 40%; //200px;
+		width: auto;
+		height: auto; //68px;
+		margin-left: -125px;
+		background-size: contain;
+
+		&.two {
+			margin-left: -125px;
+			bottom: 30%;//130px;
+		}
+
+		a {
+			display: block;
+			width: 265px;
+			height: 48px;
+			font-size: 12px;
+			line-height: 48px;
+			margin-left: 22px;
+		}
+	}
+
+	.copyBlock {
+		margin-top: -20% !important;
+	}
+
 	.heroPhoto {
 		display: block;
-		height: 400px;
+		height: auto; //500px;
+		overflow: hidden;
+		//border: 1px solid red;
 
 		&.main {
 			height: 200px;
+			//background-position: 50% 150%;
 		}
 	}
 
@@ -341,8 +371,8 @@ p {
 		}
 	}
 
-	.halfHeight {
-		//height: 100% !important;
+	.halfHeight, .fullheight {
+		height: 250px;
 	}
 
 	#action {
