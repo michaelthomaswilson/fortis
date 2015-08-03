@@ -121,6 +121,20 @@ p {
 	}
 }
 
+.copyHolder {
+	position: relative;
+	display: table;
+
+	.copyBlock {
+		display: table-cell;
+		vertical-align: middle;
+	    height: 100%;
+	    padding: 0 90px;
+	}
+}
+
+
+/*
 .copyBlock {
 	position: absolute;
     top: 50%;
@@ -129,6 +143,7 @@ p {
     width: 80%;
     margin: -10% 0 0 -40%;
 }
+*/
 
 #section2 {
 	.copyBlock {
@@ -361,8 +376,16 @@ p {
 		}
 	}
 
-	.copyBlock {
-		margin-top: -20% !important;
+	.copyHolder {
+		position: relative;
+		display: table;
+
+		.copyBlock {
+			display: table-cell;
+			vertical-align: middle;
+		    height: 100%;
+		    padding: 0 30px;
+		}
 	}
 
 	.heroPhoto {
@@ -464,8 +487,16 @@ p {
 		}
 	}
 
-	.copyBlock {
-		margin-top: -20% !important;
+	.copyHolder {
+		position: relative;
+		display: table;
+
+		.copyBlock {
+			display: table-cell;
+			vertical-align: middle;
+		    height: 100%;
+		    padding: 0 200px;
+		}
 	}
 
 	.heroPhoto {
