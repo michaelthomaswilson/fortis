@@ -11,8 +11,16 @@
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body id="top">
-
   <div id="masthead" class="row">
+    <div id="mobilemenu" class="show-for-small-up hide-for-large-up">
+      <button href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false" class="button dropdown"></button><br>
+      <ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="true" style="width: 280px;">
+        <li><a class="scroll" href="#top">HOME</a></li>
+        <li><a class="scroll" href="#section1m">PRIVATE WEALTH MANAGEMENT</a></li>
+        <li><a class="scroll" href="#section2m">ASSET MANAGEMENT</a></li>
+        <li><a class="scroll" href="#section3m">RISK MANAGEMENT</a></li>
+      </ul>
+    </div>
     <div class="small-12">
       <div id="logo" class="row">
           <a class="scroll" href="#top"><img src="/images/fortisLogo.svg"/></a>
@@ -76,7 +84,7 @@
 
   <!-- SECTION ONE MOBILE -->
 
-  <div id="section1" class="row fullscreen show-for-small-up hide-for-large-up">
+  <div id="section1m" class="row fullscreen show-for-small-up hide-for-large-up">
     <div class="heroPhoto">
       <div class="row halfHeight">
         <div class="small-12 columns photo" style="background-image: url('/images/1_family.jpg')"></div>
@@ -131,7 +139,7 @@
 
   <!-- SECTION TWO MOBILE-->
 
-  <div id="section2" class="row fullscreen show-for-small-up hide-for-large-up">
+  <div id="section2m" class="row fullscreen show-for-small-up hide-for-large-up">
     <div class="heroPhoto">
       <div class="row halfHeight"><!-- left -->
         <div class="small-12 columns photo" style="background-image: url('/images/2_beach.jpg')"></div>
@@ -190,7 +198,7 @@
 
   <!-- SECTION THREE FOR MOBILE -->
 
-  <div id="section3" class="row fullscreen show-for-small-up hide-for-large-up">
+  <div id="section3m" class="row fullscreen show-for-small-up hide-for-large-up">
     <div class="heroPhoto">
       <div class="row halfHeight">
         <div class="small-12 columns photo" style="background-image: url('/images/3_plane.jpg')"></div>

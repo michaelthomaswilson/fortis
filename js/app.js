@@ -45,6 +45,6 @@ $(document).ready(function() {
   	$('a.scroll').click(function() {//$.scrollTo works EXACTLY the same way, but scrolls the whole screen
   		var href = $(this).attr('href');
 		$.scrollTo(href, 500,{ offset:-headerHeight, easing:'easeOutCubic' });
-		return false;
+		//return false;
 	});
 });

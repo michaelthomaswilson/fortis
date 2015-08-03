@@ -42,6 +42,54 @@ p {
 
 // Classes
 
+#mobilemenu {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 33px;
+	width: 290px; //48px;
+	background-image: url(/images/menu.png);
+	background-repeat: no-repeat;
+	background-size: 33px 33px;
+	z-index: 9999;
+	overflow: visible;
+
+	.dropdown.button::after, button.dropdown::after {
+	   display: none;
+	}
+
+	.dropdown.button, button.dropdown {
+	    //position: absolute !important;
+	    //padding-right: 3.5625rem;
+	}
+
+	button, .button {
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+	    border-radius: 0;
+	    border-style: solid;
+	    border-width: 0;
+	    cursor: pointer;
+	    font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 300; font-style: normal;
+	    line-height: normal;
+	    //margin: 0 0 1.25rem;
+	    position: relative;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    padding: 1rem 2rem 1.0625rem 2rem;
+	    font-size: 1rem;
+	    background-color: transparent; //#008CBA;
+	    border: none; //#007095;
+	    color: transparent;
+	    transition: background-color 300ms ease-out;
+	}
+
+	ul#drop {
+		width: 280px;
+	}
+}
+
 .arrow {
 	position: absolute;
 	left: 48%;
@@ -144,6 +192,7 @@ p {
     margin: -10% 0 0 -40%;
 }
 */
+
 
 #section2 {
 	.copyBlock {
@@ -283,7 +332,7 @@ p {
 	right: 0;
 	height: 191px;
 	background-color: #ffffff;
-	z-index: 9999;
+	z-index: 9998;
 
 	#logo {
 
@@ -433,7 +482,7 @@ p {
 
 	#masthead {
 		height: 75px;
-		overflow: hidden;
+		//overflow: hidden;
 
 		#logo {
 
@@ -540,7 +589,7 @@ p {
 
 	#masthead {
 		height: 75px;
-		overflow: hidden;
+		//overflow: hidden;
 
 		#logo {
 
