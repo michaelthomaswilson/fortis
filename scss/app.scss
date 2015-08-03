@@ -271,7 +271,22 @@ p {
 	z-index: 9999;
 
 	#logo {
-		padding: 4% 0;
+
+		a {
+			display: block;
+			height: auto;
+			width: auto;
+
+			img {
+				margin: 55px auto 0 auto;
+				display: block;
+				height: 36px;
+				width: auto
+
+
+			}
+
+		}
 	}
 
 	#navigation { 
@@ -394,8 +409,20 @@ p {
 	}
 
 	#masthead {
-		height: 50px;
+		height: 75px;
 		overflow: hidden;
+
+		#logo {
+
+			a {
+
+				img {
+					margin: 19px auto 0 auto;
+					//height: 36px;
+				}
+
+			}
+		}
 	}
 
 	.fullscreen {
