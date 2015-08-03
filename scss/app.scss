@@ -436,17 +436,102 @@ p {
 	}
 }
 
-@media #{$small-up} {
-	.fullscreen {
-		//height: auto;
-		//min-height: 400px;
+@media #{$medium-only} { 
+	#action a h2 {
+		margin-top: 5% !important;
+	}
 
+	.arrow {
+		left: 48%;
+		bottom: 40%; //200px;
+		width: auto;
+		height: auto; //68px;
+		margin-left: -125px;
+		background-size: contain;
+
+		&.two {
+			margin-left: -125px;
+			bottom: 30%;//130px;
+		}
+
+		a {
+			display: block;
+			width: 265px;
+			height: 48px;
+			font-size: 12px;
+			line-height: 48px;
+			margin-left: 22px;
+		}
+	}
+
+	.copyBlock {
+		margin-top: -20% !important;
+	}
+
+	.heroPhoto {
+		display: block;
+		height: auto; //500px;
+		overflow: hidden;
+
+		&.main {
+			height: 200px;
+		}
+	}
+
+	.fullscreen {
+		overflow: visible;
+
+		.copyBanner {
+			height: 120px !important;
+			h2 {font-size: 1rem !important;}
+		}
+	}
+
+	.halfHeight, .fullheight {
+		height: 250px;
+	}
+
+	#action {
+		h2 {
+			font-size: 0.7rem !important;
+		}
+
+		h3 {
+			font-size: 0.7rem !important;
+		}
+
+		img {
+			width: 10% !important;
+			height: auto;
+			margin-top: -1% !important;
+		}
+	}
+
+	#masthead {
+		height: 75px;
+		overflow: hidden;
+
+		#logo {
+
+			a {
+
+				img {
+					margin: 19px auto 0 auto;
+				}
+
+			}
+		}
+	}
+
+	.fullscreen {
 		&.top {
 			margin-top: 50px;
 		}
 	}
 
-	
+	#mobile {
+		display: none !important;
+	}
 }
 
 @media #{$medium-only} { 
