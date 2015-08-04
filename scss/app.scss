@@ -93,9 +93,7 @@ p {
 .arrow {
 	position: absolute;
 	left: 48%;
-	bottom: 35%;
-	width: auto; //375px;
-	height: auto; //68px;
+	bottom: 10%;
 	margin-left: -405px;
 	background-image: url('/images/arrow.svg');
 	background-position: center center;
@@ -125,17 +123,23 @@ p {
 	//background-color: yellow;
 	//border: 1px solid red;
 
+	&.top {
+		margin-top: 150px;
+	}
+
 	.heroPhoto {
 		display: block;
 		width: 100%;
 		background-color: $bannerGray;
 
 		&.main {
+			position: relative;
 			background-image: url('/images/hero.jpg');
 			background-size: cover;
 		    background-position: 50% 80%;
 		    background-repeat: no-repeat;
 		    min-height: 400px;
+		    height: 600px;
 		}
 	}
 
@@ -381,10 +385,6 @@ p {
 }
 
 @media #{$large-up} {
-
-	.fullscreen.top {
-		margin-top: 191px !important;
-	}
 
 	#mobile {
 		display: block;
