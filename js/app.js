@@ -36,11 +36,13 @@ $(document).ready(function() {
 	}
   };
 
+/*
   setHeight();
   
   $(window).resize(function() {
     setHeight();
   });
+ */
 
   	$('a.scroll').click(function() {//$.scrollTo works EXACTLY the same way, but scrolls the whole screen
   		var href = $(this).attr('href');
