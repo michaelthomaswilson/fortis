@@ -466,6 +466,7 @@ p {
 
 	.fullscreen {
 		overflow: visible;
+		height: auto !important;
 
 		.copyBanner {
 			height: 120px !important;
@@ -476,8 +477,20 @@ p {
 
 		.copyBlock {
 			margin: 0;
-			padding: 0 30px !important;
+			padding: 0 30px;
 			//width: 20%;
+		}
+
+		.copyBanner {
+			.copyBlock {
+				padding: 0;
+			}
+		}
+
+		.heroPhoto {
+			.copyBlock {
+				padding-right: 5%;
+			}
 		}
 	}
 
@@ -504,7 +517,7 @@ p {
 	#footer {
 		img {
 			padding: 20% 0 10% 0;
-			width: 8rem;
+			width: 6rem;
 			height: auto;
 		}
 	}
@@ -529,6 +542,10 @@ p {
 	.fullscreen {
 		&.top {
 			margin-top: 50px;
+		}
+
+		.heroPhoto {
+			height: auto;
 		}
 	}
 
