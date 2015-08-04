@@ -575,6 +575,27 @@ p {
 
 	}
 
+	.fullscreen {
+		.copyBanner h2 {
+			font-size: 1.3rem;
+		}
+
+		.copyHolder {
+			.copyBlock {
+				padding: 0 30px;
+			}
+		}
+
+	}
+
+	.copyBanner {
+		.copyHolder {
+			.copyBlock {
+				padding: 0;
+			}
+		}
+	}
+
 }
 
 /*
