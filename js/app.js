@@ -12,11 +12,6 @@ $(document).ready(function() {
     windowHeight = windowHeight-headerHeight;   
     heroHeight = windowHeight - bannerHeight;
 
-    //console.log('window:' + $(window).innerHeight());
-    //console.log('header:' + headerHeight);
-    //console.log('banner:' + bannerHeight);
-    //console.log('hero:' + heroHeight);
-
    	if( $('#mobile').css('display')=='none') {
         is_mobile = true;       
     } else {

@@ -181,19 +181,6 @@ p {
 	}
 }
 
-
-/*
-.copyBlock {
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 30%;
-    width: 80%;
-    margin: -10% 0 0 -40%;
-}
-*/
-
-
 #section2 {
 	.copyBlock {
 		margin: -32% 0 0 -40%;
@@ -249,7 +236,7 @@ p {
 	   margin-right: auto;
 	   max-width: initial;
 	}
-	
+
 	.row {
 		margin: 0;
 	}
@@ -338,7 +325,7 @@ p {
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 191px;
+	height: 150px;
 	background-color: #ffffff;
 	z-index: 9998;
 
@@ -350,9 +337,9 @@ p {
 			width: auto;
 
 			img {
-				margin: 55px auto 0 auto;
+				margin: 38px auto 0 auto;
 				display: block;
-				height: 36px;
+				height: 30px;
 				width: auto
 
 
