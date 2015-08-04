@@ -403,15 +403,6 @@ p {
 	}
 
 }
-/*
-
-@media #{$large-up} {
-
-	#mobile {
-		display: block;
-	}
-}
-*/
 
 
 @media #{$small-only} { 
@@ -563,6 +554,25 @@ p {
 }
 
 @media #{$medium-only} { 
+
+	#action {
+
+		a {
+			h2 {
+				font-size: 1.1rem;
+				letter-spacing: normal;
+			}
+
+			h3 {
+				font-size: 1.1rem;
+				-webkit-font-smoothing: antialiased;
+			}
+
+			img {
+				width: 2.5rem;
+			}
+		}
+	}
 
 	.arrow {
 		position: absolute;
