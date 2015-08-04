@@ -564,6 +564,34 @@ p {
 
 @media #{$medium-only} { 
 
+	.arrow {
+		position: absolute;
+		left: 48%;
+		bottom: 10%;
+		margin-left: -300px;
+		width: 300px;
+		height: auto;
+		background-image: url('/images/arrow.svg');
+		background-size: contain;
+		background-position: center center;
+		background-repeat: no-repeat;
+
+		&.two {
+			margin-left: 30px;
+		}
+
+		a {
+			display: block;
+			width: 300px;
+			height: 68px;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 68px;
+			margin-left: 22px;
+			color: $copyGray;
+		}
+	}
+
 	#masthead {
 		#navigation {
 			div {
