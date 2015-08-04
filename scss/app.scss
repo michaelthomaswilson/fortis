@@ -473,6 +473,12 @@ p {
 
 			h2 {font-size: 1rem !important;}
 		}
+
+		.copyBlock {
+			margin: 0;
+			padding: 0 30px !important;
+			//width: 20%;
+		}
 	}
 
 	.halfHeight, .fullheight {
@@ -491,7 +497,15 @@ p {
 		img {
 			width: 35px !important;
 			height: auto;
-			//margin-top: -20px !important;
+			margin-top: -5px !important;
+		}
+	}
+
+	#footer {
+		img {
+			padding: 20% 0 10% 0;
+			width: 8rem;
+			height: auto;
 		}
 	}
 
