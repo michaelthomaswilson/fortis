@@ -152,6 +152,14 @@ p {
 		height: 200px;
 		text-align: center;
 
+		div {
+			height: 100%;
+		}
+
+		.copyHolder {
+			height: 100%;
+		}
+
 		background-image: url('/images/flourish.jpg');
 	    background-position: left center;
 	    background-repeat: no-repeat;
@@ -170,7 +178,7 @@ p {
 			letter-spacing: 0.04em;
 			color: #fff;
 			font-size: 1.6rem;
-			margin: 5% 0 0 0;
+			//margin: 5% 0 0 0;
 		}
 	}
 }
@@ -189,7 +197,7 @@ p {
 
 #section2 {
 	.copyBlock {
-		margin: -32% 0 0 -40%;
+		//margin: -32% 0 0 -40%;
 	}
 }
 
@@ -260,7 +268,7 @@ p {
 			color: $copyGray;
 			font-size: 1.3rem;
 			letter-spacing: normal;
-			margin-top: 3%;
+			//margin-top: 3%;
 		}
 
 		h3 {
