@@ -5,6 +5,8 @@ var headerHeight;
 
 $(document).ready(function() {
 
+	headerHeight = $("#masthead").height();
+
   function setHeight() {
     windowHeight = $(window).innerHeight();
     headerHeight = $("#masthead").height();
