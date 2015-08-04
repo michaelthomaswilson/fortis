@@ -44,13 +44,13 @@ p {
 
 #mobilemenu {
 	position: absolute;
-	top: 20px;
+	top: 15px; //20px;
 	left: 20px;
-	height: 33px;
+	height: 20px; //33px;
 	width: 290px; //48px;
 	background-image: url(/images/menu.png);
 	background-repeat: no-repeat;
-	background-size: 33px 33px;
+	background-size: 20px 20px;
 	z-index: 9999;
 	overflow: visible;
 
@@ -523,7 +523,7 @@ p {
 	}
 
 	#masthead {
-		height: 75px;
+		height: 50px;
 		//overflow: hidden;
 
 		#logo {
@@ -531,8 +531,8 @@ p {
 			a {
 
 				img {
-					margin: 19px auto 0 auto;
-					//height: 36px;
+					margin: 15px auto 0 auto;
+					height: 20px;
 				}
 
 			}
@@ -553,6 +553,8 @@ p {
 		display: none !important;
 	}
 }
+
+/*
 
 @media #{$medium-only} { 
 	#action a h2 {
@@ -665,6 +667,8 @@ p {
 		display: none !important;
 	}
 }
+
+*/
 
 // Or selectively include components
 // @import
