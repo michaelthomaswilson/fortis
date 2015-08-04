@@ -143,6 +143,16 @@ p {
 		    min-height: 400px;
 		    height: 600px;
 		}
+
+		.copyHolder {
+			table-layout: fixed;
+		}
+
+		.copyBlock {
+			margin: 0 200px;
+			padding-right:30%;
+			//width: 20%;
+		}
 	}
 
 	.copyBanner {
