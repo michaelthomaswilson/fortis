@@ -445,18 +445,6 @@ p {
 		}
 	}
 
-	.heroPhoto {
-		display: block;
-		height: auto; //500px;
-		overflow: hidden;
-		//border: 1px solid red;
-
-		&.main {
-			height: 200px;
-			//background-position: 50% 150%;
-		}
-	}
-
 	.fullscreen {
 		overflow: visible;
 		height: auto !important;
@@ -541,8 +529,9 @@ p {
 			height: auto;
 
 			&.main {
-				height: 540px;
-				min-height: 540px;
+				height: 450px;
+				min-height: 450px;
+				background-size: 230%;
 				background-position: center bottom;
 			}
 		}
